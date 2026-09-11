@@ -1,1 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>LMP Pet Shop | Mobile & WhatsApp</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- LOADER -->
+
+  <div id="loader">
+    <div class="loader-paw">🐾</div>
+    <h2>LMP PET SHOP</h2>
+    <p>Loading happiness for every pet...</p>
+    <div class="loader-line">
+      <span></span>
+    </div>
+  </div>
+
+
+  <!-- HEADER -->
+
+  <header class="header">
+
+    <a href="#home" class="logo-box">
+      <div class="logo-circle">
+        <span>🐶</span>
+        <span>🐱</span>
+      </div>
+
+      <div>
+        <strong>LMP PET SHOP</strong>
+        <small>Pet Care • Food • Accessories</small>
+      </div>
+    </a>
+
+    <nav id="navMenu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#products" class="nav-link">Products</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="tel:+918303566131" class="header-call">
+      <span>☎</span> Call Now
+    </a>
+
+    <button class="menu-btn" id="menuBtn">
+      ☰
+    </button>
+
+  </header>
+
+
+  <!-- HOME PAGE -->
+
+  <main>
+
+    <section id="home" class="page home-page">
+
+      <div class="hero-bg"></div>
+
+      <div class="paw paw-one">🐾</div>
+      <div class="paw paw-two">🐾</div>
+      <div class="paw paw-three">🐾</div>
+
+      <div class="hero-content">
+
+        <div class="tag">
+          <span>●</span> YOUR TRUSTED PET STORE
+        </div>
+
+        <h1>
+          Everything Your
+          <span>Pet Loves.</span>
+        </h1>
+
+        <p>
+          Welcome to LMP Pet Shop — your one-stop destination
+          for quality pet food, accessories, care products and
+          everything needed to keep your furry friends happy.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#products" class="btn primary-btn">
+            Explore Products →
+          </a>
+
+          <a href="https://wa.me/918303566131?text=Hello%20LMP%20Pet%20Shop%2C%20I%20want%20to%20know%20about%20your%20products." target="_blank" class="btn whatsapp-btn">
+            WhatsApp Us
+          </a>
+        </div>
+
+        <div class="hero-features">
+          <div>
+            <b>✓</b>
+            Quality Products
+          </div>
+
+          <div>
+            <b>✓</b>
+            Trusted Service
+          </div>
+
+          <div>
+            <b>✓</b>
+            Dealer Support
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="hero-visual">
+
+        <div class="circle-bg"></div>
+
+        <div class="floating-card card-one">
+          🐾
+          <span>Happy Pets</span>
+        </div>
+
+        <div class="floating-card card-two">
+          🥣
+          <span>Healthy Food</span>
+        </div>
+
+        <div class="pet-image">
+          <div class="pet-face">
+            <div class="ear left-ear"></div>
+            <div class="ear right-ear"></div>
+
+            <div class="eye eye-left"></div>
+            <div class="eye eye-right"></div>
+
+            <div class="nose"></div>
+
+            <div class="mouth"></div>
+
+            <div class="spot"></div>
+          </div>
+
+          <div class="pet-body"></div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+
+    <section class="features-section">
+
+      <div class="feature-card">
+        <div class="feature-icon">🥩</div>
+        <h3>Premium Food</h3>
+        <p>Healthy and nutritious food options for your pets.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🧸</div>
+        <h3>Pet Accessories</h3>
+        <p>Everything your dog or cat needs for a happy life.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">❤️</div>
+        <h3>Pet Care</h3>
+        <p>Products selected with love and care for every pet.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🚚</div>
+        <h3>Dealer Support</h3>
+        <p>Contact us for wholesale and dealer requirements.</p>
+      </div>
+
+    </section>
+
+
+    <!-- PRODUCTS PAGE -->
+
+    <section id="products" class="page products-page">
+
+      <div class="section-title">
+        <span>OUR COLLECTION</span>
+        <h2>Everything For Your Pet</h2>
+        <p>Explore our popular pet care categories.</p>
+      </div>
+
+      <div class="category-grid">
+
+        <div class="category-card">
+          <div class="category-image dog-food">🥣</div>
+          <div class="category-info">
+            <h3>Dog Food</h3>
+            <p>Nutritious food for healthy and active dogs.</p>
+            <button class="enquire-btn" data-product="Dog Food">
+              Enquire Now →
+            </button>
+          </div>
+        </div>
+
+        <div class="category-card">
+          <div class="category-image cat-food">🐱</div>
+          <div class="category-info">
+            <h3>Cat Food</h3>
+            <p>Quality food and nutrition for your cats.</p>
+            <button class="enquire-btn" data-product="Cat Food">
+              Enquire Now →
+            </button>
+          </div>
+        </div>
+
+        <div class="category-card">
+          <div class="category-image accessories">🎀</div>
+          <div class="category-info">
+            <h3>Accessories</h3>
+            <p>Collars, belts, bowls and daily pet essentials.</p>
+            <button class="enquire-btn" data-product="Pet Accessories">
+              Enquire Now →
+            </button>
+          </div>
+        </div>
+
+        <div class="category-card">
+          <div class="category-image toys">🧸</div>
+          <div class="category-info">
+            <h3>Pet Toys</h3>
+            <p>Fun toys to keep your pets active and playful.</p>
+            <button class="enquire-btn" data-product="Pet Toys">
+              Enquire Now →
+            </button>
+          </div>
+        </div>
+
+        <div class="category-card">
+          <div class="category-image grooming">🛁</div>
+          <div class="category-info">
+            <h3>Grooming Products</h3>
+            <p>Keep your furry friends clean and comfortable.</p>
+            <button class="enquire-btn" data-product="Grooming Products">
+              Enquire Now →
+            </button>
+          </div>
+        </div>
+
+        <div class="category-card">
+          <div class="category-image care">💊</div>
+          <div class="category-info">
+            <h3>Pet Care Products</h3>
+            <p>Everyday care essentials for your beloved pets.</p>
+            <button class="enquire-btn" data-product="Pet Care Products">
+              Enquire Now →
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="product-banner">
+
+        <div>
+          <span>FOR BUSINESS PARTNERS</span>
+          <h2>Dealer & Wholesaler Enquiries Welcome</h2>
+          <p>
+            Contact LMP Pet Shop for product availability,
+            bulk orders and business enquiries.
+          </p>
+        </div>
+
+        <a href="#contact" class="btn light-btn">
+          Contact Dealer Team →
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT PAGE -->
+
+    <section id="contact" class="page contact-page">
+
+      <div class="section-title">
+        <span>GET IN TOUCH</span>
+        <h2>We Are Here For You</h2>
+        <p>Have a question? Contact LMP Pet Shop directly.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <div>
+              <small>OUR ADDRESS</small>
+              <h3>LMP Pet Shop</h3>
+              <p>
+                Officer Colony Road,<br>
+                Police Line, Lakhimpur,<br>
+                Uttar Pradesh - 262701
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <div>
+              <small>CALL US</small>
+              <h3>8303566131</h3>
+              <p>Available for customer and business enquiries.</p>
+              <a href="tel:+918303566131" class="mini-link">
+                Call Now →
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">💬</div>
+            <div>
+              <small>WHATSAPP</small>
+              <h3>Chat With Us</h3>
+              <p>Send your product enquiry directly on WhatsApp.</p>
+              <a href="https://wa.me/918303566131" target="_blank" class="mini-link">
+                Open WhatsApp →
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="enquiry-box">
+
+          <div class="form-top">
+            <span>CONTACT FORM</span>
+            <h2>Send An Enquiry</h2>
+            <p>
+              Fill in your details and we will prepare your WhatsApp message.
+            </p>
+          </div>
+
+          <form id="contactForm">
+
+            <div class="input-row">
+              <div class="input-group">
+                <label>Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+              </div>
+
+              <div class="input-group">
+                <label>Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter phone number" required>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label>Enquiry Type</label>
+
+              <select id="enquiryType">
+                <option>Customer Enquiry</option>
+                <option>Dealer Enquiry</option>
+                <option>Wholesaler Enquiry</option>
+                <option>Product Availability</option>
+                <option>Bulk Order</option>
+              </select>
+            </div>
+
+            <div class="input-group">
+              <label>Message</label>
+
+              <textarea id="message" rows="5" placeholder="Write your enquiry here..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              Send On WhatsApp →
+            </button>
+
+            <p class="form-note">
+              Your message will open directly in WhatsApp.
+            </p>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- MAP -->
+
+    <section class="location-section">
+
+      <div class="location-content">
+        <span>VISIT OUR STORE</span>
+        <h2>Find LMP Pet Shop</h2>
+        <p>
+          Officer Colony Road, Police Line,<br>
+          Lakhimpur, Uttar Pradesh - 262701
+        </p>
+
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=Officer+Colony+Road+Police+Line+Lakhimpur+Uttar+Pradesh+262701"
+          target="_blank"
+          class="btn primary-btn"
+        >
+          Open Google Maps →
+        </a>
+      </div>
+
+      <div class="map-box">
+        <div class="map-pin">📍</div>
+        <div class="map-grid"></div>
+        <strong>LMP PET SHOP</strong>
+        <small>Lakhimpur, Uttar Pradesh</small>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FLOATING BUTTONS -->
+
+  <div class="floating-actions">
+
+    <a href="tel:+918303566131" class="float-call" title="Call LMP Pet Shop">
+      ☎
+    </a>
+
+    <a
+      href="https://wa.me/918303566131?text=Hello%20LMP%20Pet%20Shop%2C%20I%20want%20to%20know%20about%20your%20products."
+      target="_blank"
+      class="float-whatsapp"
+      title="WhatsApp LMP Pet Shop"
+    >
+      💬
+    </a>
+
+  </div>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-brand">
+      <div class="logo-circle small-logo">
+        🐶
+      </div>
+
+      <div>
+        <strong>LMP PET SHOP</strong>
+        <p>Your trusted partner in pet care.</p>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-copy">
+      <p>Mobile & WhatsApp: 8303566131</p>
+      <small>© 2026 LMP Pet Shop. All Rights Reserved.</small>
+    </div>
+
+  </footer>
+
+
+  <!-- TOAST -->
+
+  <div id="toast">
+    Opening WhatsApp...
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
